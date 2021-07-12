@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       Redux saga
-      <button onClick = {() => dispatch({type: 'LOAD_DATA', payload: people}) }>Click</button>
+      <button onClick = {() => dispatch({type: 'LOAD_DATA'}) }>Click</button>
     </div>
   );
 }
